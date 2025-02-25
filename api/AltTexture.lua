@@ -14,14 +14,16 @@ AltTextures_Utils.default_atlas = {
     Tag = 'tags',
     Blind = 'blind_chips',
     Stake = 'chips',
-    Sticker = 'stickers'
+    Sticker = 'stickers',
+    PlayingCard = 'cards_1'
 }
 AltTextures_Utils.game_table = {
     Tag = 'P_TAGS',
     Seal = 'shared_seals',
     Blind = 'P_BLINDS',
     Stake = 'P_STAKES',
-    Sticker = 'shared_stickers'
+    Sticker = 'shared_stickers',
+    PlayingCard = 'P_CARDS'
 }
 AltTextures_Utils.sprite_layer = {
     Blind = 'animatedSprite'
@@ -44,7 +46,7 @@ AltTextures_Utils.sticker_key = {
 AltTextures_Utils.texture_types = {
     'Joker', 'Tarot', 'Planet', 'Spectral', 'Enhanced',
     'Seal', 'Blind', 'Tag', 'Back', 'Voucher',
-    'Booster', 'Stake'
+    'Booster', 'Stake', 'PlayingCard'
 }
 AltTextures_Utils.loc_keys = {
     Joker = 'b_jokers',
@@ -59,7 +61,8 @@ AltTextures_Utils.loc_keys = {
     Voucher = 'b_vouchers',
     Booster = 'b_booster_packs',
     Stake = 'b_stake',
-    Sticker = 'k_joker_stickers',
+    PlayingCard = 'b_playing_cards',
+    Sticker = 'k_joker_stickers'
 }
 
 function check_type_present(type)
